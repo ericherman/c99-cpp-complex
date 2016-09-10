@@ -1,0 +1,29 @@
+test-c99-program
+test-c99-program.c
+test-cpp-program
+test-cpp-program.cpp
+
+###################
+# backup files
+###################
+*.bak
+*.bck
+$*
+*.swp
+*.000
+*~
+*-bak
+
+################
+# Output files
+################
+*.o
+*.a
+*.bin
+*.d
+*.elf
+*.hex
+*.list
+*.srec
+*.map
+*.out
