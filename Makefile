@@ -8,7 +8,7 @@
 # https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
 
 NOISY_FLAGS=-Werror -Wall -Wextra -Wpedantic
-CFLAGS=$(NOISY_FLAGS)
+CFLAGS=$(NOISY_FLAGS) -ggdb -O2 -pipe -fomit-frame-pointer
 LDFLAGS=
 LDLIBS=-lm
 CXXFLAGS=$(NOISY_FLAGS)
